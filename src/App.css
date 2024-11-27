@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(./assets/BgImage.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffdfd9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .main_div{
+    background-color:#f7baba91 ;
+    width: 40vw;
+    padding: 20px;
+  }
+  .App {
+    text-align: center;
+    background-color: #eacdcd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+
+  h1, h2, h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ffbcb0;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #fb9c8c;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  .calculated-emi {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fb9c8c;
+    margin-bottom: 15px;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th,
+  table td {
+    padding: 12px 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  table th {
+    background-color: #fb9c8c;
+    color: white;
+  }
+  
+  table td {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .toggle-history-btn {
+    background-color: #6c757d;
+    margin-top: 15px;
+  }
+  
+  .toggle-history-btn:hover {
+    background-color: #5a6268;
+  }
+  p{
+    color: #ffffff;
+  }
+  
+  @media (max-width: 600px) {
+    .App {
+      padding: 15px;
+    }
+    .main_div{
+      width: 90vw;
+    }
+    button {
+      padding: 8px 15px;
+   }
+  }
+  
